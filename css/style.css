@@ -1,4 +1,4 @@
-/* main {background-color: rgb(132, 156, 167);} */
+
 
 body{width: 480px;
 height:767px ;
@@ -18,78 +18,56 @@ border-style: solid;}
     border: black;
     border-style: solid;}
 
-    /* section {max-height: 500px;} */
-   /* div { height: 250px;
-    width: 240px;
-    border: black;
-    border-style: solid;} */
+    
+       .basic {
+          width: 480px;
+          max-height: 500px;
+          margin: auto;
+       }
 
-    /* .f,.h {width: 50%;
-        float: right;}
-        .e,.g{ overflow:auto;
-       } */
-      
-.e{ height: 250px;
-    width: 240px;
-    /* display: inline-block; */
-      /* float: left; */
-      background-color: cadetblue;
+    .one {
+        width: 100%;
+        margin: auto;
+    }  
+
+.two{
+    width: 100%;
+    margin: auto;
+}
+
+.e{ 
+    height: 250px;
+    width: 50%;
+    float: left;
       border: black;
       border-style: solid;}
 
 
 .f{  height: 250px;
-    /* display: inline-block; */
-    float: right;
-  width: 240px;
+        float:left;
+ width: 50%;
     border: black;
     border-style: solid;
-    /* clear: left; */
-    background-color: cadetblue;
+
 }
 
 .g{
-     clear: both;
-    height: 250px;
-    width: 240px;
+       height: 250px;
+    width: 50%;
       float: left;
-      background-color: cadetblue;
       border: black;
       border-style: solid;}
 
       .h{ 
-          float: right; 
-        /* display: inline-block; */
-           height: 250px;
-       width: 240px;
+          float:left; 
+                 height: 250px;
+       width: 50%;
         border: black;
         border-style: solid;
-        clear: both;
-        background-color: cadetblue;
-    }
-/* .e,.f,.g,.h {
-              display: inline-block;
-
-} */
-
-div {  background-color: cadetblue;}
-
-/* .clear{clear: both;} */
-
-     
-/* .g {
-    float: right;
-    display: block;
-   }
+        }
 
 
-    .h{
-        float: left;
-    display: block;
-} */
-
-
-/* .clear{clear: both;}  */
+div {  background-color:  rgb(74, 104, 105);}
 
 
 
@@ -111,5 +89,5 @@ border-width: .2px;}
 
 @media all and (min-width: 768px){
 
- @import url('./css/state.css');    
+ @import url('./css/layout.css');    
 }
