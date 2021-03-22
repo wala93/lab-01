@@ -7,7 +7,7 @@ border: black;
 border-style: solid;
 border-collapse: collapse;
 }
-
+.main {background-color: blanchedalmond;}
 .first {width: 480px;
 height: 150px;
 border: black;
@@ -23,18 +23,22 @@ border-style: solid;}
           width: 480px;
           max-height: 500px;
           margin: auto;
+          overflow: auto;
        }
 
-    .one {
+    /* .one {
         width: 100%;
         margin: auto;
+        overflow: hidden;
     }  
 
 .two{
     width: 100%;
     margin: auto;
-}
+    overflow: hidden;
+} */
 
+*{box-sizing: border-box;}
 .e{ 
     height: 250px;
     width: 50%;
