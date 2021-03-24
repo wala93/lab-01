@@ -3,17 +3,29 @@
 {
  .container{
      display: flex;
- flex-direction: column;
- /* flex-wrap: wrap; */
+ flex-direction: row;
+ flex-wrap: wrap;
+
+
+/* 
+ display: grid;
+ grid-template-rows: 20% 80% ;
+  */
 
  }
 
  .subcont
  {
+    /* grid-column-start:2;
+    grid-column-end:3;
 
+    display: grid;
+    grid-template-rows: 35% 40%  25% ; */
+    width: 80%;
     display: flex;
  flex-direction:row;
  flex-wrap: wrap;
+ height: 90%;
 
  }
 
@@ -28,10 +40,11 @@
     } */
 
 .first{
-  
-    float: left;
-    width: 0.390625em;
-    height: 0.625;
+    /* grid-column-start:1;
+    grid-column-end:2; */
+    justify-content: flex-start;
+    max-width: 20%;
+    height:max-content ;
     border: black;
     border-style: solid;
     background-color: red
@@ -39,7 +52,11 @@
 
 .same {
     /* float: left; */
-    width: 0.390625em;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
     height:200px;
     border: black;
     border-style: solid;
@@ -47,10 +64,11 @@ background-color: darkblue;}
 
    
 .one div , .two div { 
-    /* display:flex; */
+    display:flex;
+    flex-direction: row;
+    width:25%;
     height: 190px;
-    width: 250px;
-    float: left;
+    /* float: left; */
       border: black;
       border-style: solid;
     background-color: rgb(238, 241, 14);}
@@ -80,9 +98,9 @@ background-color: darkblue;}
         } */
 
 .footer {
-    width:760px;
+    width:80%;
       /* float: left; */
-    height:150px;
+    height:auto;
     border: black;
     border-style: solid;
     background-color: darkorchid;
