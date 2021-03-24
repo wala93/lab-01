@@ -1,10 +1,25 @@
-@media (min-width:768px) and (max-width:960px) {
+@media (min-width:768px)
 
+{
+ .container{
+     display: flex;
+ flex-direction: column;
+ /* flex-wrap: wrap; */
 
+ }
+
+ .subcont
+ {
+
+    display: flex;
+ flex-direction:row;
+ flex-wrap: wrap;
+
+ }
 
    .header div {
-        width: 960px;
-        height: 100px;
+        width: 100vw;
+        height: 0.1041666666666667em;
     }
     /* .footer div {
         float: left;
@@ -13,30 +28,32 @@
     } */
 
 .first{
+  
     float: left;
-    width: 200px;
-    height: 600px;
+    width: 0.390625em;
+    height: 0.625;
     border: black;
     border-style: solid;
-    background-color: darkgrey;
+    background-color: red
 }
 
 .same {
-    float: left;
-    width: 300px;
+    /* float: left; */
+    width: 0.390625em;
     height:200px;
     border: black;
     border-style: solid;
 background-color: darkblue;}
 
-    
+   
 .one div , .two div { 
+    /* display:flex; */
     height: 190px;
     width: 250px;
     float: left;
       border: black;
       border-style: solid;
-    background-color: cadetblue;}
+    background-color: rgb(238, 241, 14);}
 
 /* 
 .f{  height: 250px;
@@ -64,7 +81,7 @@ background-color: darkblue;}
 
 .footer {
     width:760px;
-      float: left;
+      /* float: left; */
     height:150px;
     border: black;
     border-style: solid;
