@@ -1,0 +1,92 @@
+@media (min-width:768px) and (max-width:960px) {
+
+
+
+   .header div {
+        width: 960px;
+        height: 100px;
+    }
+    /* .footer div {
+        float: left;
+        width: 760;
+        height: 150px;
+    } */
+
+.first{
+    float: left;
+    width: 200px;
+    height: 600px;
+    border: black;
+    border-style: solid;
+    background-color: darkgrey;
+}
+
+.same {
+    float: left;
+    width: 300px;
+    height:200px;
+    border: black;
+    border-style: solid;
+background-color: darkblue;}
+
+    
+.one div , .two div { 
+    height: 190px;
+    width: 250px;
+    float: left;
+      border: black;
+      border-style: solid;
+    background-color: cadetblue;}
+
+/* 
+.f{  height: 250px;
+        float:left;
+ width: 50%;
+    border: black;
+    border-style: solid;
+
+}
+
+.g{
+       height: 250px;
+    width: 50%;
+      float: left;
+      border: black;
+      border-style: solid;}
+
+      .h{ 
+          float:left; 
+                 height: 250px;
+       width: 50%;
+        border: black;
+        border-style: solid;
+        } */
+
+.footer {
+    width:760px;
+      float: left;
+    height:150px;
+    border: black;
+    border-style: solid;
+    background-color: darkorchid;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
