@@ -1,0 +1,29 @@
+.first {width: 480px;
+    height: 150px;
+    border: black;
+    border-style: solid;}
+    
+    .same {width: 480px;
+        height: 125px;
+        border: black;
+        border-style: solid;}
+    
+        
+           .basic {
+              width: 480px;
+              max-height: 500px;
+              margin: auto;
+              overflow: auto;
+           }
+
+           
+    .footer {width:478px;
+        clear: both;
+    height: 80px;
+    border: black;
+    border-style: solid;}
+
+    .header {width: 478px;
+        height: 75px;
+        border: black;
+        border-style: solid;}
