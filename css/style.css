@@ -4,11 +4,9 @@
 @import url('module.css');
 
 body{width: 480px;
-height:767px ;
+/*height:767px ;*/
 text-align: center;
-border: black;
-border-style: solid;
-border-collapse: collapse;
+
 }
 .main {background-color: blanchedalmond;}
 
@@ -23,6 +21,6 @@ div {  background-color:  rgb(74, 104, 105);}
 
 
 div {border-collapse: collapse;
-border-width: .2px;}
+}
 
 

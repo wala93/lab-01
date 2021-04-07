@@ -1,29 +1,16 @@
-.first {width: 480px;
-    height: 150px;
-    border: black;
-    border-style: solid;}
-    
-    .same {width: 480px;
-        height: 125px;
-        border: black;
-        border-style: solid;}
-    
-        
-           .basic {
-              width: 480px;
-              max-height: 500px;
-              margin: auto;
-              overflow: auto;
-           }
+.e{
+    background-color: #d7c7c7;
+}
+.g{
+    background-color: #439393;
+}
+.h{
+    background-color: #7777d0;
+}
+.f{
+    background-color: #dddd2e;
+}
+.footer{
+    background-color: #9d1a7e;
 
-           
-    .footer {width:478px;
-        clear: both;
-    height: 80px;
-    border: black;
-    border-style: solid;}
-
-    .header {width: 478px;
-        height: 75px;
-        border: black;
-        border-style: solid;}
+}

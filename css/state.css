@@ -14,6 +14,8 @@
        .header{
             width: 960px;
             height: 100px;
+      
+            background-color: #b2d28a;
     
         }
         .first{
@@ -21,6 +23,8 @@
             height: 600px;
             display: inline-block;
             float:left;
+      
+            background-color: rgb(183, 220, 221);
     
         }
        .same {
@@ -28,9 +32,11 @@
             height: 200px;
             display: inline-block;
             float:left;
-            
-    
-        }
+            background-color: rgb(242, 237, 195);
+    }
+    .same1{
+        background-color: rgb(230, 202, 191);
+    }
         
         .e,.f,.g,.h{
         width: 190px;
@@ -46,43 +52,55 @@
             clear: both;
     
         }
-    } 
+
+
+}
+
+        /**/
+    
     
     
     /* mobile view */
     @media  (max-width:768px){
-       
-        #con{
+       body{height: 767px;}
+       .con{
             width: 480px;
             overflow: auto;
             text-align: center;
             margin-left: auto;
             margin-right: auto;
         }
-        #a{
+       .a{
            width: 480px;
            height: 75px; 
            float: left;
+     
     
         }
-        #b{
+       .b{
             width: 480px;
             height: 150px;
             float: left;
+      
     
         }
-        #c ,#d{
+       .c ,.d{
             width: 480px;
             height: 125px;
             float: left;
+      
     
         }
-        #e,#g,#h,#f{
+       .e,.g,.h,.f{
             width: 240px;
             height: 250px;
             display:inline-block;
+
         }
-        #e,#g{
+
+
+
+       .e,.g{
             float: left;
         }
        
@@ -91,6 +109,48 @@
             height: 80px;
             clear: both;
         }
+    /**/
+    .header
+     
+    {width: 480px;
+        height: 75px;
+      
+ 
+        background-color: #b2d28a;
+    }
+        .first {width: 480px;
+            height: 150px;
+           
+      
+            background-color: rgb(183, 220, 221);
+        
+        
+        }
+             
+    .same {width: 480px;
+        height: 125px;
+       
+  
+        background-color: rgb(242, 237, 195);
+    }
+    .same1{
+        background-color: rgb(230, 202, 191);
+    }
+        
+        .basic {
+            width: 480px;
+            max-height: 500px;
+            margin: auto;
+            overflow: auto;
+         }
+         .footer {width:478px;
+            clear: both;
+        height: 80px;
+       
+  }
+    
+    /**/
+    
     }     
 
 
